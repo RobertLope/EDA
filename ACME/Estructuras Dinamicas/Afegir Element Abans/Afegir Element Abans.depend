@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1726735772 source:d:\c remember\12.estructuras dinamicas\circular\afegir element abans\main.cpp
+	<iostream>
+	"estructuraDinamica.h"
+
+1726675514 d:\c remember\12.estructuras dinamicas\circular\afegir element abans\estructuradinamica.h
+	<cstdlib>
+	<iostream>
+
+1726735913 source:d:\c remember\12.estructuras dinamicas\circular\afegir element abans\estructuradinamica.cpp
+	"estructuraDinamica.h"
+	<iostream>
+

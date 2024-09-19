@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1726593336 source:d:\c remember\12.estructuras dinamicas\circular\estructura dinamica circular\src\estructuradinamica.cpp
+	"estructuraDinamica.h"
+	<iostream>
+
+1726593212 d:\c remember\12.estructuras dinamicas\circular\estructura dinamica circular\include\estructuradinamica.h
+	<cstdlib>
+	<iostream>
+
+1726599682 source:d:\c remember\12.estructuras dinamicas\circular\estructura dinamica circular\main.cpp
+	<iostream>
+	"estructuraDinamica.h"
+
+1726593072 source:d:\c remember\12.estructuras dinamicas\circular\estructura dinamica circular\src\test.cpp
+	"test.h"
+
+1726593072 d:\c remember\12.estructuras dinamicas\circular\estructura dinamica circular\include\test.h
+
+1726598726 d:\c remember\12.estructuras dinamicas\circular\estructura dinamica circular\estructuradinamica.h
+	<cstdlib>
+	<iostream>
+
+1726600568 source:d:\c remember\12.estructuras dinamicas\circular\estructura dinamica circular\estructuradinamica.cpp
+	"estructuraDinamica.h"
+	<iostream>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1726741980 source:d:\c remember\12.estructuras dinamicas\circular\omplirfinal circular\estructuradinamica.cpp
+	"estructuraDinamica.h"
+	<iostream>
+
+1726742905 d:\c remember\12.estructuras dinamicas\circular\omplirfinal circular\estructuradinamica.h
+	<cstdlib>
+	<iostream>
+
+1726742483 source:d:\c remember\12.estructuras dinamicas\circular\omplirfinal circular\main.cpp
+	<iostream>
+	"estructuraDinamica.h"
+
