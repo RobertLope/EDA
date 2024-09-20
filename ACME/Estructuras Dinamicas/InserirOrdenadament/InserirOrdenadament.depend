@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1726847522 source:d:\gddv\eda\acme\estructuras dinamicas\inserirordenadament\main.cpp
+	<iostream>
+	"estructuraDinamica.h"
+
+1726847681 d:\gddv\eda\acme\estructuras dinamicas\inserirordenadament\estructuradinamica.h
+	<cstdlib>
+	<iostream>
+
+1726847614 source:d:\gddv\eda\acme\estructuras dinamicas\inserirordenadament\estructuradinamica.cpp
+	"estructuraDinamica.h"
+	<iostream>
+
