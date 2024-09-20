@@ -50,7 +50,27 @@ void estructuraDinamica::OmplirFinal(int n)
 {
     //Afegeix diversos valors en ordre creixent al final de l'estrcutura (sigui buida o no)
     //Els valors afegits van del 1 fins a n
-    cout<<"Omplir final"<<endl;
+
+    node *p = new node;
+    int valor=0;
+
+    for(int i=0;i<n;i++){
+
+        valor++;
+        node *p = new node;
+        p->dada = valor;
+        //Lo del nou node ho fa be
+        if(final == NULL){
+            p->seguent = p;
+            final = p;
+        } else {
+            node *q = final;
+            p->seguent = q->seguent;
+            q->seguent = p;
+            final = p;
+        }
+
+    }
 
 }
 //TODO
@@ -63,6 +83,7 @@ int estructuraDinamica::nElements() const
 
     if (final != NULL)
     {
+        elements++;
         p = final->seguent;
         while (p != final)
         {

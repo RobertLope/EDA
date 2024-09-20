@@ -72,37 +72,30 @@ void estructuraDinamica::AfegirAbans(int n,int n_a)
     node *p = new node;
     p->dada = n;
 
+    node *q = inici;
+    node *ant = NULL; //Guardem el anterior node
+    while(q->dada != n_a){
+        ant = q; //Guardem on s'apuntaba abans
+        q = q->seguent;
+    }
+    if(q == inici){
+        //El cas que estem al inici
+        p->seguent = inici;
+        cout<<"q == inici";
+        //Fem una recerca del ultim node per a poder enllaçarlo amb el primer
+        node *fi = inici;
+        while(fi->seguent != q){
+            fi = fi->seguent;
+        }
+        fi->seguent = p; //Apuntar el ultim node al nou inici que es p
+        inici = p; //p es el nou node inici
 
-    if(inici == NULL){
-        p->seguent = p;
-        inici = p;
     } else {
-        node *q = inici;
-        node *ant = nullptr; //Guardem el anterior node
-        while(q->dada != n_a){
-            ant = q; //Guardem on s'apuntaba abans
-            q = q->seguent;
-        }
-        if(q == inici){
-            //El cas que estem al inici
-            p->seguent = inici;
+        //Si n_A es troba en una altra posició afegir abans de q
+        p->seguent = q; //El nou node apunta a q
+        ant->seguent = p; //El node anterior apunte al nou node
 
-            //Fem una recerca del ultim node per a poder enllaçarlo amb el primer
-            node *fi = inici;
-            while(fi->seguent != q){
-                fi = fi->seguent;
-            }
-            fi->seguent = p; //Apuntar el ultim node al nou inici que es p
-            inici = p; //p es el nou node inici
-
-        } else {
-            //Si n_A es troba en una altra posició afegir abans de q
-            p->seguent = q; //El nou node apunta a q
-            ant->seguent = p; //El node anterior apunte al nou node
-
-        }
-
-        }
+    }
 
 }
 
