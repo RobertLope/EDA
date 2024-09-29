@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1727338314 source:d:\gddv\eda\acme\estructuras dinamicas\treurefinal\main.cpp
+	<iostream>
+	"estructuraDinamica.h"
+
+1727189821 d:\gddv\eda\acme\estructuras dinamicas\treurefinal\estructuradinamica.h
+	<cstdlib>
+	<iostream>
+
+1727338356 source:d:\gddv\eda\acme\estructuras dinamicas\treurefinal\estructuradinamica.cpp
+	<iostream>
+	"estructuraDinamica.h"
+

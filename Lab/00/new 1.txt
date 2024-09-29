@@ -1,0 +1,3 @@
+cat /u/alum/u11987144/eda/s0/prova.txt
+
+chmod 700 (nom del directori)

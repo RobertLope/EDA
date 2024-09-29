@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1727461138 source:d:\gddv\eda\acme\estructuras dinamicas\pila dinamica\main.cpp
+	<iostream>
+	"pilaDinamica.h"
+
+1727459967 source:d:\gddv\eda\acme\estructuras dinamicas\pila dinamica\piladinamica.cpp
+	"pilaDinamica.h"
+
+1727459277 d:\gddv\eda\acme\estructuras dinamicas\pila dinamica\piladinamica.h
+	<cstdlib>
+	<iostream>
+

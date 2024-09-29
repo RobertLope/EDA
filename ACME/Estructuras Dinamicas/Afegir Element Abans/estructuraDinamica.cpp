@@ -94,8 +94,9 @@ void estructuraDinamica::AfegirAbans(int n,int n_a)
         //Si n_A es troba en una altra posició afegir abans de q
         p->seguent = q; //El nou node apunta a q
         ant->seguent = p; //El node anterior apunte al nou node
-
     }
+
+
 
 }
 

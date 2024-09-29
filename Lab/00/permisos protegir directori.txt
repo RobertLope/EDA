@@ -1,0 +1,31 @@
+cat /u/alum/u11987144/eda/s0/prova.txt
+
+chmod 700 (nom del directori)
+
+
+Compilar 
+
+1- Transformar el codi
+
+g++ -c PuntGPS.cpp
+
+
+2- Agafar tot i crear en un unic
+
+
+g++ -o t1 taula1.o PuntGPS.o
+
+3- Executar el codi
+
+ ./t1 
+
+Executar un prorama amb la entrada estandard a traves d'un fitxer 
+ ./t1 <Estasen_SantJordi_1-txt
+
+
+
+
+push_back() Insereix al final
+
+
+A GNU-Linux, teniu la utilitat dos2unix per convertir els fitxers de text de format Windows a Unix.
