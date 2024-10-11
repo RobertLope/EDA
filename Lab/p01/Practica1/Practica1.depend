@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1728301392 source:d:\gddv\eda\lab\p01\practica1\districte.cpp
+	<iostream>
+	"Districte.h"
+	<list>
+	"Persona.h"
+	<string>
+	<ctime>
+
+1728301338 d:\gddv\eda\lab\p01\practica1\districte.h
+	<string>
+	<list>
+	"Persona.h"
+
+1728303297 d:\gddv\eda\lab\p01\practica1\persona.h
+	<string>
+	"Estudi.h"
+	"Nacionalitat.h"
+
+1728301578 d:\gddv\eda\lab\p01\practica1\estudi.h
+	<string>
+
+1728301894 d:\gddv\eda\lab\p01\practica1\nacionalitat.h
+	<string>
+
+1728301521 source:d:\gddv\eda\lab\p01\practica1\estudi.cpp
+	"Estudi.h"
+
+1728319967 source:d:\gddv\eda\lab\p01\practica1\nacionalitat.cpp
+	"Nacionalitat.h"
+
+1728303288 source:d:\gddv\eda\lab\p01\practica1\persona.cpp
+	"Persona.h"
+	<string>
+

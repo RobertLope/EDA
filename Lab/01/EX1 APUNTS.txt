@@ -1,0 +1,8 @@
+APUNTS E1
+
+
+
+Si un habitant no te totes les dades no guardarlo
+
+
+Si posa contenidor al principi, hem de triar el tipus de dada que retorna

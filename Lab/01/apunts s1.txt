@@ -1,0 +1,34 @@
+Standard Template Library: 
+
+Seqüencials: vector, list, 
+
+Ordenats: map, set
+
+
+Amb dos iteradors podem tenir un rang d'elements
+
+El nostre iterador ini no ha de apuntar a end
+No fer mai *c.end(), dona error!
+
+Operacions amb vector [Posicions consecutives de memoria]
+
+pos_mem_primer_element + mida_elements * i = element que busquem
+
+
+
+-/nprim < prova.txt //Llegim el cin per fitxer
+
+1> sortida.txt //El canal std output es guardara en un fitxer
+
+2>/dev/null  //El canal de error es guardara a la "paperera"
+
+2>/dev/null 1>sortida.txt  //Fem les dos accions anteriors simultanis
+
+
+
+diff sortida.txt prova_out.txt //Codi per fer la proba, si es igual funciona perfecte el programa, sino cal arreglar alguna cosa
+
+
+
+Normlament tota la informació que va per a l'usuari en un canal, els resultats reals en un altre
+

@@ -1,0 +1,28 @@
+Todos los cout fuera de Padro.cpp
+
+Al Padro.cpp no pot tenir voids
+
+obtenirNumHabitants retornar el llistat.size()
+
+Tots els demes contenidors com list o vect
+
+Padro::edatPerDistricte() ha de retornar un int/long
+
+
+
+CONTENIDOR resumEstudis() const; //Ha de retornar una llista d'Estudis
+CONTENIDOR resumNacionalitats() const;
+
+
+
+
+Tots els recorreguts que pugui fer al afegir, els faig al principi millor
+
+
+
+
+Intentar treure el menor que operador de la clase publica Estudis
+
+Mostrar tot els menus i opcions per al usuari per al canal de error (cerr)
+
+

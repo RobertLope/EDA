@@ -1,0 +1,19 @@
+g++ -c *.cpp
+g++ -o e1 *.o
+
+g++ -o e1 main.o Districte.o Padro.o Nacionalitat.o Persona.o Estudi.o
+
+./e1 < prova_curt_in.txt 1> prova_curt_out_meu.txt 2>/dev/null
+
+diff prova_curt_out_meu.txt prova_curt_out.txt
+
+./e1 < prova_llarg_in.txt 1> prova_llarg_out_meu.txt 2>/dev/null
+
+diff prova_llarg_out_meu.txt prova_llarg_out.txt
+
+
+./e1 < prova_lletra_opcio.txt 2>/dev/null
+
+./e1 < prova_districte_nombre.txt 2>/dev/null
+
+./e1 < prova_edadPerNacio.txt 2>/dev/null

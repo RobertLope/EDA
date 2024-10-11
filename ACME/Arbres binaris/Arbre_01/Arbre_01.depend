@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1728556767 source:d:\gddv\eda\acme\arbres binaris\arbre_01\arbrebinari.cpp
+	"ArbreBinari.h"
+	<iostream>
+	<memory>
+	<string>
+
+1728556255 d:\gddv\eda\acme\arbres binaris\arbre_01\arbrebinari.h
+	<memory>
+	<string>
+
+1728556543 source:d:\gddv\eda\acme\arbres binaris\arbre_01\main.cpp
+	"ArbreBinari.h"
+	<iostream>
+

@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1728301521 source:d:\gddv\eda\lab\e01\estudi.cpp
+	"Estudi.h"
+
+1728301578 d:\gddv\eda\lab\e01\estudi.h
+	<string>
+
+1728319825 source:d:\gddv\eda\lab\e01\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<list>
+	<vector>
+	<iomanip>
+	<stdlib.h>
+	"Persona.h"
+	"Padro.h"
+	"Estudi.h"
+
+1728319967 source:d:\gddv\eda\lab\e01\nacionalitat.cpp
+	"Nacionalitat.h"
+
+1728301894 d:\gddv\eda\lab\e01\nacionalitat.h
+	<string>
+
+1728303288 source:d:\gddv\eda\lab\e01\persona.cpp
+	"Persona.h"
+	<string>
+
+1728303297 d:\gddv\eda\lab\e01\persona.h
+	<string>
+	"Estudi.h"
+	"Nacionalitat.h"
+
+1728320872 source:d:\gddv\eda\lab\e01\padro.cpp
+	"Padro.h"
+	"Districte.h"
+	"Persona.h"
+	<iostream>
+	<iomanip>
+	<string>
+	<list>
+
+1728303112 d:\gddv\eda\lab\e01\padro.h
+	<string>
+	<vector>
+	<list>
+	"Districte.h"
+	"Estudi.h"
+
+1728301392 source:d:\gddv\eda\lab\e01\districte.cpp
+	<iostream>
+	"Districte.h"
+	<list>
+	"Persona.h"
+	<string>
+	<ctime>
+
+1728301338 d:\gddv\eda\lab\e01\districte.h
+	<string>
+	<list>
+	"Persona.h"
+
